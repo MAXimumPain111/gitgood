@@ -1,16 +1,6 @@
 import numpy as np
 
-screen_size = 20
-theta_spacing = 0.07
-phi_spacing = 0.02
-illumination = np.fromiter(".,-~:;=!*#$@", dtype="<U1")
-
-A = 1
-B = 1
-R1 = 1
-R2 = 2
-K2 = 5
-K1 = screen_size * K2 * 3 / (8 * (R1 + R2))
+#SKICKAR VITT PÅ GRÖNA LINJEN
 
 
 def render_frame(A: float, B: float) -> np.ndarray:
